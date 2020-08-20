@@ -1,0 +1,43 @@
+body {
+  font-family: 'Gruppo', cursive;
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  flex-flow: row;
+  background-image: "https://lh3.googleusercontent.com/AaN1vaMEBRAFSr1F9i4Fh_X1HdTVOpH6dHlyCSGYuaspGwK9XVYdmNrQQurkEUo1d2QT7cuP-I7bDKrZwuyB-6b4Bw=s0";
+}
+
+
+h1 {
+  font-size: 67px;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+h2 {
+  
+}
+
+#newArt{
+  font-family: 'Gruppo', cursive;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 67px;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  background-color: gold;
+}
+
+#landingArt {
+  height: 90vh;
+  width: 100vw;
+  
+  /* object-fit: cover; */
+}
+
+#painting{
+  cursor: pointer;
+}
