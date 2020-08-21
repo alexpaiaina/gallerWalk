@@ -49,7 +49,7 @@ h1 {
   cursor: pointer;
 }
 
-/* @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 768px) {
   body {
       font-family: 'Gruppo', cursive;
       display: flex;
@@ -64,4 +64,4 @@ h1 {
       font-size: 30px;
   }
 
-} */
+}

@@ -11,7 +11,7 @@ function startSlider() {
 
   loop = setInterval(function () {
 
-    if (sliderNext>count){
+    if (sliderNext > count) {
       sliderNext = 1;
       sliderInt = 1;
     }
@@ -21,8 +21,10 @@ function startSlider() {
 
     slideInt = sliderNext;
     sliderNext = sliderNext + 1;
+    
+    
 
-  }, 8500)
+  } , 9000) 
 }
 
 //Credit to Joseph Smith on youtube.  A tutorial I watched to help me utilize a slide.
