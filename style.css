@@ -1,37 +1,48 @@
 body {
   font-family: 'Gruppo', cursive;
-  display: flexbox;
   text-align: center;
   align-items: center;
   flex-flow: row;
-  background-image: "https://lh3.googleusercontent.com/AaN1vaMEBRAFSr1F9i4Fh_X1HdTVOpH6dHlyCSGYuaspGwK9XVYdmNrQQurkEUo1d2QT7cuP-I7bDKrZwuyB-6b4Bw=s0";
 }
 
 
 h1 {
+  display: inline-block;
   font-size: 67px;
-  margin-bottom: -5px;
+  margin-bottom: 15px;
   margin-top: 5px;
   text-align: center;
 }
 
-h2 {
-  
-}
 
 #newArt{
   font-family: 'Gruppo', cursive;
+  border-radius: 12px;
   background-color: rgba(255, 255, 255, 0);
   font-size: 67px;
   cursor: pointer;
   outline: none;
 }
 
-a {
+#newArt:hover {
   background-color: gold;
 }
 
-#landingArt {
+#slider {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin: 30px auto;
+}
+
+#slider>Img {
+  width: 600px;
+  height: 400px;
+  float: left;
+  display: none;
+}
+
+.landArt {
   height: 90vh;
   width: 100vw;
   
@@ -40,4 +51,21 @@ a {
 
 #painting{
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+      font-family: 'Gruppo', cursive;
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+
+
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 30px;
+  }
+
 }
