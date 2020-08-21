@@ -29,15 +29,11 @@ h1 {
 }
 
 #slider {
-  width: 600px;
-  height: 400px;
   overflow: hidden;
   margin: 30px auto;
 }
 
 #slider>Img {
-  width: 600px;
-  height: 400px;
   float: left;
   display: none;
 }
@@ -53,7 +49,7 @@ h1 {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   body {
       font-family: 'Gruppo', cursive;
       display: flex;
@@ -68,4 +64,4 @@ h1 {
       font-size: 30px;
   }
 
-}
+} */
